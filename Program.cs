@@ -148,7 +148,34 @@ namespace Helloworld
             int i = 10;
             string Name = Convert.ToString(i);
             Console.WriteLine(Name);
+            
+            string myNumber = "+97798";
+            int i = 0;
+            bool IsConversionSuccessful = int.TryParse(myNumber, out i);
+            if (IsConversionSuccessful)
+            {
+                Console.WriteLine(i);
+            }
+            else
+            {
+                Console.WriteLine("Conversion unsucccessful");
+            }
+
+            
+
+
+            int[] MyArray = new int[3];
+            MyArray[0] = 1;
+            MyArray[1] = 2;
+            MyArray[2] = 3;
+            Console.WriteLine(MyArray[1]);
+
+            //This is single line comment
+
+
             */
+
+
         }
     }
 }
